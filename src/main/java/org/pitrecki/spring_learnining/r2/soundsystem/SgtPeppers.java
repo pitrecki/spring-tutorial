@@ -8,10 +8,10 @@ import java.util.logging.Logger;
  * @author Piotr 'pitrecki' Nowak
  *         Created by Pitrecki on 2017-03-13.
  */
-@Component
+@Component("lonelyHeartClub")
 public class SgtPeppers implements CompactDisc
 {
-    private Logger logger = Logger.getLogger(this.getClass().getSimpleName());
+    private final Logger logger = Logger.getLogger(SgtPeppers.class.getName());
 
     private String title = "Sgt. Pepper's Lonely Hearts Club Band";
     private String artist = "The Beatles";
