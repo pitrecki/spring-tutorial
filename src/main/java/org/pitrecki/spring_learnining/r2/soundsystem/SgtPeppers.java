@@ -1,8 +1,10 @@
 package org.pitrecki.spring_learnining.r2.soundsystem;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
-import java.util.logging.Logger;
+
 
 /**
  * @author Piotr 'pitrecki' Nowak
@@ -11,7 +13,7 @@ import java.util.logging.Logger;
 @Component("lonelyHeartClub")
 public class SgtPeppers implements CompactDisc
 {
-    private final Logger logger = Logger.getLogger(SgtPeppers.class.getName());
+    private final Logger logger = LogManager.getLogger();
 
     private String title = "Sgt. Pepper's Lonely Hearts Club Band";
     private String artist = "The Beatles";

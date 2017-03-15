@@ -8,7 +8,8 @@ import org.springframework.context.annotation.Configuration;
  *         Created by Pitrecki on 2017-03-13.
  */
 @Configuration
-@ComponentScan
+@ComponentScan(basePackageClasses = CompactDisc.class)
+//You can specify componets to scan by enter package classes or package name
 public class CDPlayerConfig
 {
 }
