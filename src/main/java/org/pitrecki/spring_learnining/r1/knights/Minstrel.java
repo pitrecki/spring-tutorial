@@ -1,6 +1,6 @@
 package org.pitrecki.spring_learnining.r1.knights;
 
-import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
 
 /**
  * @author Piotr 'pitrecki' Nowak

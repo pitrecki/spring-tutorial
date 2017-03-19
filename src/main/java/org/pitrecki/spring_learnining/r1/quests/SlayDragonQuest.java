@@ -1,6 +1,6 @@
 package org.pitrecki.spring_learnining.r1.quests;
 
-import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
 
 /**
  * @author Piotr 'pitrecki' Nowak
@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  */
 public class SlayDragonQuest implements Quest
 {
-    Logger logger;
+    private final Logger logger;
 
     public SlayDragonQuest(Logger logger) {
         this.logger = logger;
